@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+nav{
+    background-color: yellowgreen;
+    height: 10%;
+    width: 50vh;
+}
+
+#cont{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:hover{
+    background-color: darkorange;
+    color: whitesmoke;
+}
+
+#drop-main{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: cadetblue;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+#drop{
+    position: relative;
+}
+
+#drop:hover #drop-main{
+    display: block;
+}
+
+#drop1-main{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+#drop1{
+    position: relative;
+}
+
+#drop1:hover #drop1-main{
+    display: block;
+}
+
+#vbmenu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: khaki;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+#menu{
+    position: relative;
+}
+
+#menu:hover #vbmenu{
+    display: block;
+}
+
+#vlmenu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: orchid;
+    position: absolute;
+    top:0;
+    left: 100%;
+    display: none;
+}
+
+#menu1{
+    position: relative;
+}
+
+#menu1:hover #vlmenu{
+    display: block;
+}
+
+#vdmenu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: hotpink;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+#menu2{
+    position: relative;
+}
+
+#menu2:hover #vdmenu{
+    display: block;
+}
+
+#nbmenu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: peru;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+#menu3{
+    position: relative;
+}
+
+#menu3:hover #nbmenu{
+    display: block;
+}
+
+#nlmenu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+#menu4{
+    position: relative;
+}
+
+#menu4:hover #nlmenu{
+    display: block;
+}
+
+#menu4:hover #nlmenu{
+    display: block;
+}
+
+#ndmenu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color:magenta;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+#menu5{
+    position: relative;
+}
+
+#menu5:hover #ndmenu{
+    display: block;
+}
